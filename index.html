@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="todo">
+    <section id="contenedor">
+        <h4>Modo Noche</h4>
+        <div class="toggle-button-cover">
+            <div class="button-cover">
+                <div class="modo-noche">
+                <div class="button r" id="button-1">
+                    <input type="checkbox" class="checkbox" id="modo">
+                    <div class="knobs"></div>
+                    <div class="layer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <h1>Conversor de Divisas</h1>
+        <h3>De Pesos a Euros/Dolares</h3>
+        <div class="conversor">
+        <input type="number" id="cantidad" placeholder="Ingrese pesos">
+        <select name="" id="divisa">
+            <option value="USD">USD</option>
+            <option value="EUR">EUROS</option>
+        </select>
+        <button id="convertir">Convertir</button>
+        <p id="resultado">Resultado</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhmVMmxgmb-UmiW3se-5AsP_K3aodSD9Yy1Q&usqp=CAU"
+                alt="" id="pic">
+    </div>
+
+        <!-- <button id="mostrar">Creditos</button> -->
+        <div id="creditos">
+            <button id="cerrar">X</button>
+            <p>Hecho con amor en santa rosa</p>
+        </div>
+        <p>Creado por <a href="https://portfolio-ortiz-manuel.netlify.app/">Ortiz Manuel</a></p>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
